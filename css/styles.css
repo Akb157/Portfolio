@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+#Homepage {
+height: 100vh;
+font-family: 'poppins', sans-serif;
+    background-image: url("images/Homepage.gif");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.navbar{ 
+    padding: 3rem 0;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.navbar a{
+    color: white;
+    font-weight: bold;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#name h1{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#name h1 #button a{
+    font-size: 50px;
+    text-decoration: none;
+}
+.fa-facebook {
+    color:#3B5998;
+    padding-right: 1rem;
+}
+.fa-twitter {
+    color: white;
+    padding-right: 1rem;
+}  
+.fa-linkedin {
+    color:  #007bb5;
+    padding-right: 1rem;
+} 
+.fa-github{
+    color:  black;
+    padding-right: 1rem;
+} 
+
+
+.fa-instagram {
+    color: red;
+    padding-right: 1rem;
+}
+
+#about{
+    padding: 2rem;
+    font-family: 'poppins', sans-serif;
+    height: 100vh;
+    background-image: url("images/blue-space.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#about h1{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#about img{
+    vertical-align: middle;
+    border-radius: 20px;
+    width: 350px;
+    height: 450px;
+}
+#about .container {
+    display: flex;
+    vertical-align: middle;
+    padding-top: 6rem;
+}
+#about .container #para {
+    font-size: larger;
+    padding-left: 2rem;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+#skills{
+    padding: 2rem;
+    font-family: 'poppins', sans-serif;
+    height: 100vh;
+    background-image: url("images/blue-space.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#skills .container #tag{
+    height:100%;
+    widows: 100%;;
+}
+#skills .container #tag h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+#skills .container h3{
+    font-weight: bold;
+    color: white;
+    padding-top: 2rem;
+}
+#halloffame{
+    padding-top: 2rem;
+    font-family: 'poppins', sans-serif;
+    height: 100vh;
+    background-image: url("images/blue-space.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#halloffame  #tag{
+    height: auto;
+    width: auto;
+}
+#halloffame #tag h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+#halloffame .container{
+    text-align: center;
+    color: white;   
+    display: flex;
+    width: auto;
+    height: auto;
+    padding-top: 7rem;
+    
+}
+#halloffame .container .a1{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+#halloffame .container .a2{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+  
+}
+#halloffame .container .a3{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+#contact{
+    padding: 2rem;
+    font-family: 'poppins', sans-serif;
+    height: 100vh;
+    background-image: url("images/blue-space.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+#contact input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  #contact .label{
+      color: white;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+#contact input[type=submit] {
+    background-color: #4CAF50;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+#contact input[type=submit]:hover {
+    background-color: green;
+  }
+  
+  /* Add a background color and some padding around the form */
+#contact .container {
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
+  #contact #tag{
+    height: auto;
+    width: auto;
+}
+#contact #tag h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+}

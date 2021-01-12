@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKB Welcome You!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!--The Home Page-->  
+    <section id="Homepage">
+        <div class="navbar">
+            <a href="#homepage">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#halloffame">Hall of Fame</a>
+            <a href="#contact">Contact</a>  
+        </div>
+                
+        <div id="name">   
+            <h1>Hi! I'm <br>
+                Akshat Baheti <br>
+                <div id="button">
+                    <a href="https://www.facebook.com/akb.157/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/AK_B_157" class="fa fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/akshat-baheti-175b481ab/" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/Akb157" class="fa fa-github"></a>
+                    <a href="https://www.instagram.com/ak_b_157/" class="fa fa-instagram"></a>
+                </div>    
+            </h1>      
+        </div>  
+    </section>
+
+ <!--Aboutme Page-->
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="container">
+            <div>
+                <img src="./css/images/Profile pic.jpg" alt="">
+            </div>
+            <div id="para">
+                <h3>
+                    Hi! This is Akshat Baheti(AKB) pursuing B.Tech in Electronics
+                    and Communication Engineering from Institute of Technology,
+                    Nirma University (batch of 2023).I am a tech enthusiast and also take part in cultural Activities (mainly Acting) and try to learn and explore 
+                    geeky Stuffs as much I can. I believe Ride as much or as little, or as long or as short
+                    as you feel, but ride!!!!
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div id="tag">
+                <h1>Skills</h1>
+            </div>
+
+            <h3>C/C++</h3> 
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%"></div>
+            </div>
+
+            <h3>Python</h3> 
+                <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%"></div>
+            </div>
+
+            <h3>XML</h3> 
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%"></div>
+            </div>
+
+            <h3>HTML + CSS</h3> 
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:50%"></div>
+            </div>
+
+            <h3>Android App Development</h3> 
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:55%"></div>
+            </div>
+        </div> 
+    </section>
+    
+    <section id="halloffame">
+        <div id="tag">
+            <h1>Hall of Fame</h1>
+        </div>
+
+        <div class="container">
+            
+            <div class="a1">
+                <i class="fas fa-trophy fa-5x"></i>
+                <h1>National Level Quizzer</h1>
+                <h4> Quizer from IIT Kanpur on Digital Transaction in year 2018 from the congress of National
+                    Children Science Congress(NCSC)
+                </h4>
+            </div>
+
+            <div class="a2">
+                <i class="fas fa-trophy fa-5x"></i>
+                <h1>NCC <br>Cadet</h1>
+                <h4> C-Certificate holder of Batch 2017 from NCC Ahmedabad Headquarters <br>
+                    (Duration 2 Years)
+                </h4>
+            </div>
+
+            <div class="a3">
+                <i class="fas fa-trophy fa-5x"></i>
+                <h1>Acting <br>Skills</h1>
+                <h4>I have won many events with my Acting skills and always look forward to gain more knowledge and Skills</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div id="tag">
+            <h1>Contact</h1>
+        </div>
+
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="email">Email-Address</label>
+              <input type="text" id="email" name="email-address" placeholder="Your Email Address">
+              
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Author: Akshat Baheti<br>
+            <a href="mailto:akshatbaheti2000@gmail.com">akshatbaheti2000@gmail.com</a> <br>
+        Contact for Queries
+        </p>
+    </footer>
+</body>
+
+</html>
+
+
