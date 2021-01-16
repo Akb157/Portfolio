@@ -167,7 +167,7 @@ font-family: 'poppins', sans-serif;
 #contact{
     padding: 2rem;
     font-family: 'poppins', sans-serif;
-    height: 100vh;
+    height: 100%;
     background-image: url("images/blue-space.jpg");
     background-repeat:no-repeat;
     background-size:cover;
@@ -230,4 +230,89 @@ footer{
 }
 body{
     background-color: black;
+}
+
+@media only screen and (max-width:600px){
+    
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{ 
+        left: 10%;
+        transform: translatex(0%);
+    }
+    .navbar a{
+        margin-right: 30px;
+    }
+    #name h1 #button a{
+        font-size: 35px;
+        text-decoration: none;
+    }
+    #about{
+        height:105%;
+    }
+    #about h1{
+        font-size: 50px;
+    }
+    #about img{
+        vertical-align: middle;
+        margin-left:10%;
+        margin-top: 10%;
+        border-radius: 20px;
+        width:70%;
+        height:100%;
+    }
+    #about .container {
+        display: block;
+    }
+    #about .container #para {
+        font-size: 20px;
+        display:block;
+        color: white;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #skills{
+        display: block;
+        position: relative;
+        height: 105%;
+    }
+    #skills .container #tag h1{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    #skills .container h3{
+        font-size: 20px;
+    }
+    #halloffame{
+        height:105%;
+    }
+    #halloffame #tag h1{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    #halloffame .container .a1 {
+        margin-top:-80px;
+        width:auto;
+        height:auto;
+    }
+    #halloffame .container .a2 {
+        margin-top:20px ;
+        width:auto;
+        height:auto;
+    }
+    #halloffame .container .a3 {
+        margin-top:20px ;
+        width:auto;
+        height:auto;
+    }
+    #halloffame .container{
+        display:inline-block;
+        text-align: center;
+        margin-left:1rem;
+    }
 }
