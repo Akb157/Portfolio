@@ -233,16 +233,30 @@ body{
 }
 
 @media only screen and (max-width:600px){
-    
     body{
         overflow-x: hidden;
     }
+    #Homepage {
+    height: 100%;
+    text-align: center;
+    background-image: none;
+    }
     .navbar{ 
-        left: 10%;
-        transform: translatex(0%);
+        padding-left: 2rem 0;
+        position: relative;
+        transform: translatex(-50%);
+        display: block;
     }
     .navbar a{
-        margin-right: 30px;
+        margin-right: 6%;
+        font-size: 12px;
+    }
+    #name h1{
+        margin-top: 10%;
+    }
+    #lecum{
+        font-size: 50px;
+        margin-top:50%;
     }
     #name h1 #button a{
         font-size: 35px;
@@ -252,12 +266,15 @@ body{
         height:105%;
     }
     #about h1{
+        margin-top: 160%;
+        position:relative;
         font-size: 50px;
+        text-align: center;
     }
     #about img{
         vertical-align: middle;
         margin-left:10%;
-        margin-top: 10%;
+        margin-top: 1%;
         border-radius: 20px;
         width:70%;
         height:100%;
